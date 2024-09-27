@@ -38,7 +38,7 @@ console.log(alunos)*/
 // indexof('x'), ----------> Faz uma varredura no array procurando o indice em que esta o valor desejado;
 // delete alunos[x], ----------> Apaga o valor que está no indice e deixa o indice em branco(vazio);
 // console.log(alunos.sort()),  ---------> Organiza os indices por ordem alfabética;
-// slice(),   --------> Mostra o array de acordo com o numero do indice desejado(sempre colocar um numero a mais do indice desejado) e armazena na variavel sem mexer no arry pai;
+// slice(),   --------> Mostra o array de acordo com o numero do indice desejado(sempre colocar um numero a mais do indice desejado) e armazena na variavel sem mexer no array pai;
 // splice(), ------------> Parte o array pai;
 // join(""); -------------> Transforma os elementos e concatena os numeros e bota como string;
 // toString(""); ----------> Tranforma o elemento numero em string sem fazer a concatenação;
