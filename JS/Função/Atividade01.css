@@ -1,0 +1,39 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+}
+
+fieldset{
+    background-color: rgb(77, 77, 244);
+    height: 150px;
+    width: 350px;
+    
+    
+}
+
+label {
+    margin-left: 15px;
+    color: white;
+}
+
+input{
+    margin-top: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 225px;
+}

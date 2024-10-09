@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 Documento Object Model DOM</title>
+</head>
+
+<body>
+
+    <!-- quando trabalhar com document.getElementById voce tem que passar entre parenteses e aspas o valor do seu id. EX : document.getElementById("Conteúdo").textContent = "Novo conteúdo adicionado no id"
+
+    Se for com o document.getElementsByClassName é preciso informar o inndice do elemento (parece um array mas não é). EX : document.getElementsByClassName("")
+    
+    Se usar o document.querySelector tem que chamar igual no css  #id .class. Ex : document.querySelector (".paragrafo").textContent = "Novo conteúdo adicionado a classe".
+    document.querySelectorAll tem que ser informado o indice do conteúdo a ser alterado. EX : document.querySelectorAll(".paragrafo")[4].innerHTML = "Novo conteúdo adicionado no conteúdo"
+     -->
+
+    Diferencça entre o .textContent e .
+
+
+
+
+    <h1 id="title01">Exemplo 01 - DOM</h1>
+
+    <main class="cmain" id="idmain">
+        <h2>Subtitulo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus doloribus neque, ipsa facilis nesciunt
+            sint.</p>
+    </main>
+
+    <section class="csection" id="idsection">
+        <h3>Subtitulo</h3>
+        <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, dolorem.</p>
+    </section>
+
+
+    <script src="../D.O.M/Aula01.js"></script>
+
+</body>
+
+</html>
