@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event </title>
+
+    <style>
+        #meuDiv{
+            width: 200px;
+            height: 200px;
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Event Submit
+
+    <form  id="meuformulario">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome">
+        <button type="submit">Enviar</button>
+    </form> -->
+
+
+    <!-- ######################################################################################################### -->
+
+
+    <!-- Evento Keyup -->
+
+    <!-- <input type="text" id="inputTexto" placeholder="Digite algo"> -->
+
+    <!-- ######################################################################################################### -->
+
+    <!-- Evento Mouseover -->
+
+    <div id="meuDiv">
+        Passe o mouse
+    </div>
+
+
+
+    <script>
+
+        /*Event Submit
+
+        const form = document.getElementById('meuformulario')
+
+        form.addEventListener('submit', function(event){
+            event.preventDefault()
+            alert('Formulário enviado')
+        });*/
+
+        //#######################################################################################################
+
+        /* Evento Keyup
+
+        const input = document.querySelectorAll('#inputTexto')
+
+        input.addEventListener('keyup', function(){
+            console.log('Valor atual: ' + input.value)
+        });
+        */
+
+         //#######################################################################################################
+
+        //  Evento Mouse-Over
+
+        const div = document.getElementById('meuDiv')
+
+        div.addEventListener('mouseover', function(){
+            div.style.backgroundColor = 'lightgreen'
+        })
+
+
+    </script>
+    
+</body>
+</html>

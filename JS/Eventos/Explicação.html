@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+</head>
+<body>
+
+
+    <!-- Exemplo 01 -->
+
+    <button onclick="executar()">Clique aqui</button>  <!-- Dispara apenas uma função com o evento onclick -->
+
+
+    <!-- Exemplo 02 -->
+
+    <!-- <button id="botao">Clique aqui</button> -->
+
+
+    <!-- Exemplo 03 -->
+
+    <button id="botao">Clique aqui</button>
+
+
+    <script>
+
+        // Exemplo 01
+
+        function executar(){
+            alert('Você clicou no botão')
+        }
+
+        function executar2(){
+            alert('funcao executar2')
+        }
+
+
+        // Exemplo 02
+
+        // const botao = document.getElementById('botao')
+
+        // botao.onclick = executar
+
+
+        // Exemplo 03
+        // Rotina de tratamento de eventos DOM tradicionais
+
+        const botao = document.querySelector('#botao')
+
+        botao.addEventListener('click', function(){
+            executar2()
+            executar()
+        })
+        
+    </script>
+    
+</body>
+</html>
