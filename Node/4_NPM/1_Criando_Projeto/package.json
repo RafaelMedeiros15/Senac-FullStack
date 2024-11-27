@@ -1,0 +1,17 @@
+{
+  "name": "meuprojeto",
+  "version": "1.0.0",
+  "description": "aula de introducao sobre npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Rafael",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas Aninhadas</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+
+        aside{
+            border: 5px solid black;
+        }
+
+        details {
+            cursor: pointer;
+        }
+
+        summary {
+            background-color: blueviolet;
+        }
+
+        details[open] {
+            background-color: blue;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- TRABALHANDO COM LISTAS ANINHADAS -->
+
+    <aside>
+
+
+        <h1>TRABALHANDO COM LISTAS</h1>
+
+        <h3>Lita Desordenada</h3>
+        <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <ul>
+                <li>item2.1</li>
+                <li>item2.2</li>
+            </ul>
+            <li>litem3</li>
+        </ul>
+
+
+
+
+        <h3>Lita Ordenada</h3>
+        <ol>
+            <li>item1</li>
+            <li>item2</li>
+            <ol>
+                <li>item2.1</li>
+                <li>item2.2</li>
+            </ol>
+            <li>litem3</li>
+        </ol>
+
+        <HR>
+
+        <!-- TRABALHANDO COM LISTAS DE DEFINIÇÃO -->
+
+        <h3>TRABALHANDO COM LISTAS DE DEFINIÇÃO</h3>
+
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext markup language</dd>
+            <dd>Usado para criar páginas na web</dd>
+
+            <dt>CSS</dt>
+            <dd>Casting style sheet</dd>
+        </dl>
+
+        <hr>
+
+        <!-- TRABALHANDO COM DETAILS -->
+
+        <h3>TRABALHANDO COM DETAILS</h3>
+
+        <details>
+
+            <!-- NECESSÁRIO CLICAR PARA QUE ABRA OS ATRIBUTOS-->
+
+            <summary>Pré-requisitos </summary>
+            <p>Para fazer esse curso é necessários atender aos pré-requisitos a seguir:</p>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>HTML</li>
+            </ul>
+        </details>
+
+
+        <!-- ATRIBUTOS JA VEM ABERTO NA PAGINA-->
+
+        <h3>Details open</h3>
+        <details open>
+
+            <summary>Pré-requisitos </summary>
+            <p>Para fazer esse curso é necessários atender aos pré-requisitos a seguir:</p>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>HTML</li>
+            </ul>
+        </details>
+    </aside>
+</body>
+
+</html>

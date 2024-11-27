@@ -1,0 +1,13 @@
+<h1>Detalhes do usuário</h1>
+
+<div>
+    <p>Nome: {{user.name}}</p>
+    <p>Profissão: {{user.occupation}}</p>
+    <p>Data de Nascimento: {{user.date_of_birth}}</p>
+    <p>Newsletter: {{#if user.newsletter}}
+            Sim 
+        {{else}}
+            Não 
+        {{/if}}
+    </p>
+</div>

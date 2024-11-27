@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            padding: 20px;
+        }
+
+        caption{
+
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 2px 3px 4px black;
+            color: white;
+        }
+
+        table{
+            width: 100%;
+            border: 2px solid red;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0.8);
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #414141;
+        }
+
+        th{
+            background-color: #707070;
+            color: white;
+            font-weight: bold;
+        }
+
+
+                /* uma pseudoclasse onde eu determino onde o filho vai ter numeros pares um impares e com determinar a aplicação para cada  ODD = Par e EVEN = Impar */
+        tbody tr:nth-child(odd){
+            background-color: white;
+        }
+
+        tbody tr:nth-child(even){
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Titulo da Tabela</caption>
+
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Categoria</th>
+                <th>Preço</th>
+                <th>Disponibilidade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>Eletronico</td>
+                <td>R$3.500,00</td>
+                <td>Em estoque</td>
+            </tr>
+
+            <tr>
+                <td>Smartphone</td>
+                <td>Eletronico</td>
+                <td>R$3.500,00</td>
+                <td>Em estoque</td>
+            </tr>
+
+            <tr>
+                <td>Geladeira</td>
+                <td>Eletronico</td>
+                <td>R$3.500,00</td>
+                <td>Em estoque</td>
+            </tr>
+
+            <tr>
+                <td>Notebook</td>
+                <td>Eletronico</td>
+                <td>R$3.500,00</td>
+                <td>Em estoque</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>

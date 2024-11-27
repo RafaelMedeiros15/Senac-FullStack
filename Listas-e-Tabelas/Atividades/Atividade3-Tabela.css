@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(188, 176, 176);
+    
+   
+}
+
+table{
+    
+    width: 90%;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+caption{
+    color: blue;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em;
+}
+
+thead tr{
+    color: white;
+    background-color: orange;
+    
+    
+}
+
+.cor{
+    background-color: red;
+    border-bottom: 1px solid white;
+    
+}
+
+th, td{
+    padding: .7em;
+    text-align: center;
+    border-bottom: 1px solid rgb(157, 154, 154);
+    
+}
+
+td:nth-child(3){
+    background-color: blueviolet;
+    
+}
+
+td:nth-child(6){
+    background-color: aquamarine;
+    
+}

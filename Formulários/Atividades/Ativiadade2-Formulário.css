@@ -1,0 +1,67 @@
+body{
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 50%;
+    background-color: rgb(23, 23, 23);
+    height: 50em;
+    
+}
+legend{
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border: none;
+}
+
+label{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+input{
+    background-color: back;
+    outline: 0px 0px 2px 0px white;
+    padding: 1em;
+    background-color: black;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    color: white;
+}
+
+textarea{
+    background-color: #333;
+    resize: none;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+textarea:invalid:focus, input:invalid:focus{
+    border-bottom: 2px solid red;
+}
+
+textarea:valid:focus,
+input:valid:focus{
+    border-bottom: green 2px solid;
+}
+
+.enviar{
+    margin-left: 1.5em;
+    padding: .5em;
+    background-color: #333;
+    border: none;
+}

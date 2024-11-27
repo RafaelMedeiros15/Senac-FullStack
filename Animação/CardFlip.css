@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pai{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.filho{
+    border: 2px solid black;
+    width: 180px;
+    height: 180px;
+    background-color: blue;
+    
+}

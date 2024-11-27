@@ -1,0 +1,23 @@
+<h1>Cadastre o seu Livro</h1>
+
+<form action="/books/updatebook" method="POST" class="form">
+
+    <input type="hidden" name="id" value="{{book.idbooks}}">
+
+    <div class="form-control">
+        <label for="title">Título: </label>
+        <input type="text" name="title" placeholder="Título do livro" value="{{book.title}}" required>
+    </div>
+
+    <div class="form-control">
+        <label for="author">Autor:</label>
+        <input type="text" name="author" placeholder="Informa o autor" value="{{book.author}}" required>
+    </div>
+
+    <div class="form-control">
+        <label for="publication_year">Ano de publicação:</label>
+        <input type="date" name="publication_year" value="{{book.publication_year}}" required>
+    </div>
+
+    <input type="submit" value="Editar">
+</form>

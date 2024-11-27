@@ -1,0 +1,71 @@
+body{
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+h1, h3{
+    text-align: center;
+    color: #333;
+    padding: 1em;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: center;
+    background-color: bisque;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 10px #333;
+}
+
+label{
+    text-align: left;
+}
+
+.campo-senha , .campo-usuario{
+    border-radius: .5em;
+    outline: none;
+    padding: 0.75em;
+} 
+
+.campo-usuario{
+    margin-bottom: 1em;
+}
+
+div{
+    
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 1em;
+    display: flex;
+}
+
+
+.apagar, .enviar{
+    width: 50%;
+    margin-right: 1em;
+    height: 2.5em;
+    cursor: pointer;
+} 
+
+.apagar{
+    background-color: red;
+    border: none;
+}
+
+.enviar{
+    background-color: blue;
+    border: none;
+}

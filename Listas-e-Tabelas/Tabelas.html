@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        main {
+            border: 3px solid black;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .scroll{       /* Ajustar para que a tabela funcione em varios tamanhos de telas com o scroll */
+            width: 100%;
+            overflow: auto;
+        }
+
+        table {
+            margin: auto;
+            width: 80%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            /* Para juntar a tabela */
+        }
+
+        th {
+            background-color: blue;
+            color: white;
+            border: 2px solid black;
+            
+            
+        }
+
+        td {
+            background-color: #ccc;
+            border: 1px solid black;
+            text-align: center;
+            border-bottom: 1px solid blue;
+            
+        }
+
+        tbody td {
+            padding: .5em;
+        }
+
+        tbody td:hover {
+            background-color: blueviolet;
+            color: white;
+            transition: .3s;
+            cursor: pointer;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- TRABALHANDO COM TABELAS -->
+
+
+    <main>
+        <H1>Trabalhando com tabelas</H1>
+
+        <div class="scroll">
+            <table>
+
+                <!-- TÍTULO DA TABELA -->
+                <caption>Titulo da Tabela</caption>
+
+                <!-- CABEÇALHO DA TABELA -->
+                <thead>
+                    <tr>
+                        <th>Plano Básico</th>
+                        <th>Plano Vip</th>
+                        <th>Plano Premium</th>
+                    </tr>
+                </thead>
+
+                <!-- CORPO DA TABELA -->
+
+                <tbody>
+                    <tr>
+                        <td>Design</td> <!-- TD = COLUNA -->
+                        <td>InDesign</td> <!-- TD = COLUNA -->
+                        <td>1000</td> <!-- TD = COLUNA -->
+                    </tr>
+
+                    <tr>
+                        <td>Design</td>
+                        <td>Photoshop</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Design</td>
+                        <td>Ilustrator</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Development</td>
+                        <td>HTML</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Development</td>
+                        <td>CSS</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Development</td>
+                        <td>JavaScript</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr>
+                        <td>Development</td>
+                        <td>PHP</td>
+                        <td>1000</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td>
+                            Valores sujeitos a alteração sem aviso prévio
+                        </td>
+
+                        <td>
+                            Valores sujeitos a alteração sem aviso prévio
+                        </td>
+
+                        <td>
+                            Valores sujeitos a alteração sem aviso prévio
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+
+        <hr>
+
+        <table>
+
+            <!-- TÍTULO DA TABELA -->
+            <caption>Titulo da Tabela</caption>
+
+            <!-- CABEÇALHO DA TABELA -->
+            <thead>
+                <tr>
+                    <th>Plano Básico</th>
+                    <th>Plano Vip</th>
+                    <th>Plano Premium</th>
+                </tr>
+            </thead>
+
+            <!-- CORPO DA TABELA -->
+
+            <tbody>
+                <tr>
+                    <!-- rowspan serve para mesclar as coolunas -->
+                    <td rowspan="3">Design</td> <!-- TD = COLUNA -->
+                    <td>InDesign</td> <!-- TD = COLUNA -->
+                    <td>1000</td> <!-- TD = COLUNA -->
+                </tr>
+
+                <tr>
+
+                    <td>Photoshop</td>
+                    <td>1000</td>
+                </tr>
+
+                <tr>
+
+                    <td>Ilustrator</td>
+                    <td>1000</td>
+                </tr>
+
+                <tr>
+                    <!-- Rowspan serve para merclas as colunas e ele tende a ampurrar os elementos  -->
+                    <td rowspan="4">Development</td>
+                    <td>HTML</td>
+                    <td>1000</td>
+                </tr>
+
+                <tr>
+
+                    <td>CSS</td>
+                    <td>1000</td>
+                </tr>
+
+                <tr>
+
+                    <td>JavaScript</td>
+                    <td>1000</td>
+                </tr>
+
+                <tr>
+
+                    <td>PHP</td>
+                    <td>1000</td>
+                </tr>
+            </tbody>
+
+            <!-- RODAPÁ DA TABELA -->
+
+            <tfoot>
+                <tr>
+                    <td colspan="3">
+                        Valores sujeitos a alteração sem aviso prévio
+                    </td>
+
+
+                </tr>
+            </tfoot>
+        </table>
+
+
+
+
+
+
+
+    </main>
+
+</body>
+
+</html>

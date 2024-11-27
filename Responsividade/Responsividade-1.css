@@ -1,0 +1,18 @@
+/* @media print{
+    body {
+       color: blue;
+       background-color: #ccc;
+       font-family: 'Times New Roman', Times, serif;
+    }
+ }
+
+.onlyprint{
+    color: black;
+    font-family: serif;
+}
+
+a::after{
+    content: "("attr(href)") - ("attr(title)")";
+    display: inline-block;
+    margin-left: .5em;
+} */

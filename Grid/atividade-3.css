@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: .5em;
+}
+
+header{
+    background-color: red;
+    height: 15vh;
+    align-content: center;
+}
+
+header h1 {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+nav{
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    display: grid;
+    gap: .5em;
+}
+
+nav p {
+    background-color: #555454;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+nav p:hover{
+    background-color: #727171;
+}
+
+section{
+    background-color: white;
+    padding: 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+}
+
+.cards{
+    background-color: rgb(72, 72, 255);
+    border-radius: .5em;
+    color: white;  
+    padding: 1.5em;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.cards:hover{
+    background-color: blue;
+}
+
+#container-infos{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    align-content: center;
+    gap: 1em;
+}
+
+#container-infos p {
+    padding: 1em;
+}
+
+.infos{
+    background-color: orange;
+    padding: .5em;
+    
+}
+
+.infos h4{
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    border-radius: .5em;
+    text-align: center;
+}
+
+footer{
+    background-color: green;
+}
+
+footer p {
+    color: white;
+    padding: 2em;
+    text-align: center;
+}
+
+
+/* @media screen and (max-width: 1100px) {
+    section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
+
+/* @media screen and (max-width: 800px) {
+    #container-infos{
+        display: grid;
+    grid-template-columns: 1fr;
+    }
+} */

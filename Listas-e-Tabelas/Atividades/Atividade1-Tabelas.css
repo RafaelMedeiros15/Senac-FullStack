@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(217, 217, 217);
+}
+
+
+table{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    text-align: justify;
+}
+caption{
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+th{
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+td{
+    border-bottom: 1px solid black;
+    padding: 15px;
+}
+
+tr:hover{
+    background-color: black;
+    color: white;
+}
+
+.branco{
+    background-color: white;
+}
+
+.cinza{
+    background-color: rgb(193, 192, 192);
+}

@@ -1,0 +1,12 @@
+fieldset{
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+button{
+    background-color: red;
+}
+
+input{
+    background-color: yellow;
+}

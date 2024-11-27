@@ -1,0 +1,107 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #4caf50;
+    
+}
+
+form{
+    border-left: 3px #185b1a solid;
+    width: 30%;
+    padding: 1em;
+    background-color: white;
+    
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+input{
+    background-color: white;
+    outline: none;
+    border: none;
+    height: 3em;
+    border-bottom: 1px solid #4caf50;
+}
+
+input:invalid:focus{
+    border-bottom: 2px solid red;
+ }
+
+ input:valid:focus{
+    border-bottom: green 2px solid;
+}
+
+.inicio{
+    text-decoration: none;
+    height: 2em;
+    width: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: .5em;
+}
+
+.entrar{
+    text-decoration: none;
+    height: 2.3em;
+    width: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius: .7em;
+    font-size: 13px;
+
+}
+
+.cadastre-se{
+    background-color: red;
+    color: white;
+    
+}
+
+.info{
+    display: flex;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.info-cad{
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ajuste{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 1em;
+    
+    
+}
+
+.tamanho{
+    font-size: .6em;
+    width: 20%;
+
+}

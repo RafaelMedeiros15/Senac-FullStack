@@ -1,0 +1,56 @@
+body{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 200vh;
+}
+
+.cena{
+    border: 2px solid #ccc;
+    width: 300px;
+    aspect-ratio: 1;
+}
+
+.plano{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: mediumvioletred;
+    color: white;
+    font-size: 2em;
+}
+
+#cena1{
+    perspective: 600px;
+}
+
+#cena1 .plano{
+    width: 300px;
+    margin: 50px;
+    aspect-ratio: 1;
+    transform: rotatey(45deg);
+
+}
+
+
+#cena2 .plano{
+    width: 200px;
+    margin: 50px;
+    aspect-ratio: 1;
+    transform: perspective(600px) rotatey(45deg);
+}
+
+#cena3 .plano{
+    margin: 1em;
+    transform: rotatey(45deg);
+
+}
+
+#cena3 {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    perspective: 600px;
+    perspective-origin:  right top;
+}

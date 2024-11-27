@@ -1,0 +1,55 @@
+body{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+    animation: rotacao;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.rotacao p{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+@keyframes rotacao{
+    0%{
+        scale: .5;
+        background-color: black;
+
+    }
+
+    50%{
+        rotate: 360deg;
+        /* transform: translatex( 100px);
+        border-radius: 50%;
+        opacity: 50%; */
+        transform: rotate(0);
+        background-color: yellow;
+        
+    }
+
+    100%{
+        /* transform: translatex( -100px);
+        rotate: 360deg;
+        border-radius: 100%;
+        background-color: yellow; */
+        transform: translatey(-360px);
+        rotate: 360deg;
+        border-radius: 100%;
+        scale: 2;
+        background-color: green;
+    }
+}

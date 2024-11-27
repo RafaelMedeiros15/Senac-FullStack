@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de comandos node.js na pasta do projeto</title>
+    <style>
+        div{
+            background-color: blue; 
+            margin-bottom: 1em;
+        }
+        h5, p{
+            
+            
+            background-color: black;
+            color: white;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Listas de comandos do node.js</h2>
+    <ol>
+        <li>npm init -y</li>
+        <li>npm install nodemon express express-handlebars pg</li>
+        <p>Nodemon :  "start": "nodemon .index.js localhost 3000"</p>
+    </ol>
+
+    <h2>no index.js</h2>
+
+    <div>
+        <h5>const express = require('express')</h5>
+        <p>Requerindo o epress</p>
+    </div>
+
+    <div>
+        <h5>const exphbs = require('express-handlebars')</h5>
+        <p>Para o rodar o express handlebars</p>
+    </div>
+
+    <div>
+        <h5>const {Pool} = require('pg')</h5>
+        <p>para trabalhar com o postgres</p>
+    </div>
+
+
+    <div>
+        <h5>const app = express()</h5>
+        <p>armazena o express numa variavel</p>
+    </div>
+
+    <div>
+        <h5>app.use(express.static('public'))</h5>
+        <p>para trabalhar no express com arquivos staticos(css)</p>
+    </div>
+
+    <div>
+        <h5>app.get('/', (req,res) => {
+            res.render('home')
+        });
+        </h5>
+
+        <p>Faz o express(app) pegar(get) o arquivo Home e renderizar o '/' da rota</p>
+
+        <p>gf</p>
+    </div>
+</body>
+</html>

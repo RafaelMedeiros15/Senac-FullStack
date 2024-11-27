@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+#container{
+    background-color: #ccc;
+    padding: 20px;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#btn{
+    background-color: blue;
+    padding: 10px;
+    
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}

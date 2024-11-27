@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="../Formulários/Formulário.css">
+
+
+</head>
+
+<body>
+    <!-- <form action="" method="get">
+        <fieldset>
+            <label for="">
+                Nome
+            </label>
+
+            <input type="text" name="" id="" maxlength="10">
+
+            <label for="">
+                Senha
+            </label>
+
+            <input type="password" name="" id="" required>
+
+            <textarea maxlength="" cols="10" rows="10" name="" id=""></textarea>
+
+            <input type="submit" value="enviar">
+
+            
+            
+
+        </fieldset>
+    </form> -->
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="user">Usuário</label>
+            <input type="text" id="user" required placeholder="Digite seu nome" autofocus>
+
+            <label for="password">Senha:</label>
+            <input type="password" name="" id="password" placeholder="Digite sua senha" autofocus>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados do usuário</legend>
+
+            <label for="email">Email</label>
+            <input type="email" name="" id="Email" required placeholder="email">
+
+            <label for="number">Número de Eletrodomesticos</label>
+            <input type="number" name="" id="number">
+
+            <br> <br>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="date" nam="" id="" min="2024-06-01">
+
+            <label for="">
+                <input type="radio" name="opcao" id="" value="s">Sim
+            </label>
+            <label for="">
+                <input type="radio" name="opcao" id="" value="n">Não
+            </label>
+
+            <br><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Area de Interessse</legend>
+
+            <label for="">
+                <input type="checkbox" name="Interessse" id="" value="html" />HTML
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="Interessse" id="" value="CSS" />CSS
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="Interessse" id="" value="JavaScript" />JavaScript
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="Interessse" id="" value="JAVA" />JAVA
+            </label>
+
+            <label for="">
+                <input type="checkbox" name="Interessse" id="" value="PHP" />PHP
+            </label>
+
+            <br><br><br>
+            <select name="linguagem">
+
+                <option value="">Selecione uma opção</option>
+
+                <optgroup label="Frontend">
+                    <option value="html">HTML</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="css">CSS</option>
+                    <option value="python">PYTHON</option>
+                </optgroup>
+
+                <optgroup label="Backend">
+                    <option value="python">PYTHON</option>
+                    <option value="php">PHP</option>
+                    <option value="java">JAVA</option>
+                </optgroup>
+
+
+
+            </select>
+
+            <br><br><br>
+
+            <input type="text" list="linguagemlist">
+            <datalist id="linguagemlist">
+
+                <option value="html">HTML</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="css">CSS</option>
+                    <option value="python">PYTHON</option>
+            </datalist>
+
+            <br><br><br>
+            <textarea cols="50" rows="8" readonly>
+                normas do contrato
+
+                1.1 item 1
+                2.1 item 2
+            </textarea>
+
+            <label >
+                <input type="checkbox" checked> Li e aceito os termos do contrato
+            </label>
+
+            <br><br>
+
+            <input type="file">
+
+            <input type="button" value="botão">
+            <input type="submit" value="Enviar">
+            <button>Botão</button>
+
+            <br><br><br>
+
+            <input type="search">
+            <br><br>
+            <input type="range" min="0" max="100" step="2">
+            <br><br><br>
+            <input type="color">
+            <br><br><br>
+            <input type="time">
+
+            <br><br><br>
+
+            <label for="combistivel">Nivel do combustivel
+
+                <meter id="combistivel" min="0"
+                max="100" low="30"
+                high="90" value="50" optimum="50"></meter>
+            </label>
+        </fieldset>
+
+
+
+        <br><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+
+</body>
+
+</html>
